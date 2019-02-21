@@ -1,0 +1,11 @@
+nav{
+    color: aqua;
+    font-size: 32px;
+    flex:1;
+    display: flex;
+    text-align: center
+}
+nav > a:hover{
+    color:black;
+    background-color: aqua;
+}
