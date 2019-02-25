@@ -1,10 +1,10 @@
-nav > a {
+nav.login > a {
     color: aqua;
     font-size: 24px;
     text-align: center;
     flex: 2;
 }
-nav > a:hover{
+nav.login > a:hover{
     color:black;
     background-color: aqua;
 }
@@ -13,18 +13,31 @@ nav{
     display:flex;
 }
 
+nav.left{
+    float: left;
+    width: 10%;
+    background: #ccc;
+    padding: 20px;
+    margin: 0px 20px 0px 0px
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 header{
     width: 100%;
-    background-color: gray;
+    color: black;
+    background-color: aqua;
     text-align: center;
 }
-article {
+.article {
     float: left;
     padding: 20px;
     width: 20%;
     background-color: #f1f1f1;
-  }
+}
 
-  article > h1{
-      text-align: center;
-  }
+.article > h1{
+    text-align: center;
+}
