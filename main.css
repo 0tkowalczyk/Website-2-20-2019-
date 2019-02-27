@@ -13,7 +13,7 @@ nav{
     display:flex;
 }
 
-nav.left{
+aside.left{
     float: left;
     width: 10%;
     background: #ccc;
@@ -40,5 +40,5 @@ header{
     text-align: center;
 }
 body{
-    background-color:gray;
+    background-image: "background.png";
 }
